@@ -41,19 +41,19 @@ function App() {
         {formik.errors.name ? (
           <div style={{ color: 'red' }}>{formik.errors.name}</div>
         ) : null}
-        <div>Email:</div>
-        <input
-          id="emailField"
-          type="text"
-          name="email"
-          onChange={formik.handleChange}
-          value={formik.values.email}
-        />
-        {formik.errors.email ? (
-          <div id="emailError" style={{ color: 'red' }}>
-            {formik.errors.email}
-          </div>
-        ) : null}
+//         <div>Email:</div>
+//         <input
+//           id="emailField"
+//           type="text"
+//           name="email"
+//           onChange={formik.handleChange}
+//           value={formik.values.email}
+//         />
+//         {formik.errors.email ? (
+//           <div id="emailError" style={{ color: 'red' }}>
+//             {formik.errors.email}
+//           </div>
+//         ) : null}
         <div>Password:</div>
         <input
           id="pswField"
